@@ -114,7 +114,7 @@ public class Main {
             System.out.println("4. Keluar");
             String selectedMenu = scanner.nextLine();
             switch (selectedMenu) {
-                case "1";
+                case "1":
                     break;
                 case "2":
                     break;
