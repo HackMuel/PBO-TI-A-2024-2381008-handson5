@@ -102,4 +102,30 @@ public class Main {
         todos[number - 1] = newTodo;
         return true;
     }
+
+    public static void showMainMenu() {
+        boolean isRunning = true;
+        while (isRunning) {
+            showTodoList();
+            System.out.println("MENU : ");
+            System.out.println("1. Tambah");
+            System.out.println("2. Hapus");
+            System.out.println("3. Edit");
+            System.out.println("4. Keluar");
+            String selectedMenu = scanner.nextLine();
+            switch (selectedMenu) {
+                case "1";
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    break;
+                case "4":
+                    isRunning = false;
+                    break;
+                    default:
+
+            }
+        }
+    }
 }
